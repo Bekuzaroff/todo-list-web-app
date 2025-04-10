@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+
 const app = express();
-const User = require('./models/user');
 
 /*setting up config file with enviroment variables
   DB_URL - THE LINK OF DATABASE, IT IS NEEDED FOR CONNECTION TO DB */
